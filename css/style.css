@@ -46,5 +46,25 @@ header nav div button:last-child  {
 .container  {
     height: 500px;
     width: 100%;
-    background-color: khaki;
+    background-color: black;
+    display: flex;
+    padding: 50px 50px 20px 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image  {
+    background-image: url(https://picsum.photos/536/354);
+    height: 140px;
+    width: 230px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1em;
+}
+div.image span  {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 1.5em;
+    padding: 0.2em 0.2em;
 }
